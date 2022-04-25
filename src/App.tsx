@@ -6,6 +6,7 @@ import {RootState} from './store/store'
 
 function App() {
   const userList = useSelector((state: RootState)=> state.userList)
+  console.log(userList);
   return (
     <div className="App">
       <h1>User List</h1>
